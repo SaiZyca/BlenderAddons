@@ -19,11 +19,13 @@ importlib.reload(addon_classes)
 
 
 classes = (
-    addon_classes.ELEMENT_PT_main,
-    addon_classes.ELEMENT_PT_data,
-    addon_classes.ELEMENT_PT_lights,
-    addon_classes.ELEMENT_PT_cryptomatte,
-    addon_classes.ELEMENT_PT_other,
+    addon_classes.ELEMENT_PT_main_menu,
+    addon_classes.ELEMENT_OT_operators,
+    addon_classes.ELEMENT_PT_render_layers,
+    # addon_classes.ELEMENT_PT_data,
+    # addon_classes.ELEMENT_PT_lights,
+    # addon_classes.ELEMENT_PT_cryptomatte,
+    # addon_classes.ELEMENT_PT_other,
     )
     
 
